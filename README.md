@@ -1,6 +1,6 @@
 # StarknetJS / RPC Issue
 
-This repo is just a sample code to reproduce an issue when trying to declare an account contract that has already been declared on testnet using `starknetjs`. The script fails with a `LibraryError: -32603: Internal error` when just a few days ago failed with a properly formatted error message describing that an already declared contract cannot be redeclared.
+This repo is just a sample code to reproduce an issue when trying to declare a contract that has already been declared on testnet using `starknetjs`. The script fails with a `LibraryError: -32603: Internal error` when just a few days ago failed with a properly formatted error message describing that an already declared contract cannot be redeclared.
 
 To run the script you have to create a `.env` file in the root folder of the project and add two keys:
 
