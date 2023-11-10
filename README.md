@@ -13,4 +13,4 @@ The Deployer wallet is needed to pay for the gas fees associated with declaring 
 
 You'll need to have NodeJS 20 or higher and install the script dependencies with `npm install`.
 
-Run the script with `npm run deploy` and see it fail.
+Build the contract with `scarb build` and then run the deploy script with `npm run deploy` to see the error message. Make sure to run the script twice so it's an attempt at redeclaring the smart contract.
